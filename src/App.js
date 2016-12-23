@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import weightConverter from '../weightConverter';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,25 +8,31 @@ class App extends Component {
         super(props);
         this.state = {
             kg: 0,
-            stone: 0
+            stone: 0,
+            lbs: 0
         };
         this.KG_TO_STONE = 6.35029318;
 
         this.handleKgChange = this.handleKgChange.bind(this);
         this.handleStoneChange = this.handleStoneChange.bind(this);
+        this.handleLbsChange = this.handleLbsChange.bind(this);
     }
 
     handleKgChange(event) {
         this.setState({kg: event.target.value});
         let tmp = event.target.value / this.KG_TO_STONE;
-        console.log(this.state.kg);
         this.setState({stone: tmp});
     }
 
     handleStoneChange(event) {
         this.setState({stone: event.target.value});
-        let tmp = event.target.value * this.KG_TO_STONE;
-        console.log(this.state.stone);
+        let tmp = weightConverter.stoneLbsToKg(event.target.value, this.state.lbs);
+        this.setState({kg: tmp});
+    }
+
+    handleLbsChange(event) {
+        this.setState({lbs: event.target.value});
+        let tmp = weightConverter.stoneLbsToKg(this.state.stone, event.target.value);
         this.setState({kg: tmp});
     }
 
@@ -38,16 +45,23 @@ class App extends Component {
                 </div>
                 <div>
                     <input
-                        type="text"
+                        type="number"
                         onChange={this.handleStoneChange}
                         value={this.state.stone}
                     />
                     &nbsp;stone
                 </div>
                 <div>
-                    {/* Why if I set a value does it not allow me to edit it? */}
                     <input
-                        type="text"
+                        type="number"
+                        onChange={this.handleLbsChange}
+                        value={this.state.lbs}
+                    />
+                    &nbsp;lbs
+                </div>
+                <div>
+                    <input
+                        type="number"
                         onChange={this.handleKgChange}
                         value={this.state.kg}
                     />

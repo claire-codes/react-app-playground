@@ -9,5 +9,9 @@ test('stone to kg', () => {
 });
 
 test('stone to stone and lbs', ( ) => {
-    
+    expect(weightConverter.stoneToStoneLbs(1.5)).toMatchObject({stone: 1, lbs: 7});
 })
+
+test('stone lbs to kg', () => {
+    expect(weightConverter.stoneLbsToKg(1, 7)).toBe(9.52);
+});

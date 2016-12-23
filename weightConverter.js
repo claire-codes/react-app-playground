@@ -12,5 +12,9 @@ module.exports =  {
 
     stoneToStoneLbs: function(stone) {
         return 42;
-    }
+    },
+
+    stoneLbsToKg: function(stone, lbs) {
+        return Math.round(this.stoneToKg(stone + (lbs / 14)) * 100) / 100;
+    },
 }
