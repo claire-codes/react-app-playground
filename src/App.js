@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import weightConverter from '../weightConverter';
+import weightConverter from './weightConverter';
 import logo from './logo.svg';
 import './App.css';
 
