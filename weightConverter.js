@@ -1,10 +1,17 @@
+"use strict";
+
 module.exports =  {
     FACTOR: 6.35,
 
     kgToStone: function(kg) {
         kg = parseFloat(kg);
-        // round to 2 d.p.
         return this.twoDecPlaces(kg / this.FACTOR);
+    },
+
+    kgToStoneLbs: function(kg) {
+        kg = parseFloat(kg);
+        let rawStone = this.kgToStone(kg);
+        return this.stoneToStoneLbs(rawStone);
     },
 
     stoneToKg: function(stone) {
@@ -12,9 +19,13 @@ module.exports =  {
         return stone * this.FACTOR;
     },
 
-    stoneToStoneLbs: function(stone) {
-        stone = parseFloat(stone);
-        return 42;
+    stoneToStoneLbs: function(rawStone) {
+        rawStone = parseFloat(rawStone);
+        let rawLbs = rawStone % 1;
+        return {
+            stone: parseInt(rawStone),
+            lbs: parseInt(rawLbs * 14)
+        };
     },
 
     stoneLbsToKg: function(stone, lbs) {

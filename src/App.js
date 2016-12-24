@@ -11,7 +11,6 @@ class App extends Component {
             stone: 0,
             lbs: 0
         };
-        this.KG_TO_STONE = 6.35029318;
 
         this.handleKgChange = this.handleKgChange.bind(this);
         this.handleStoneChange = this.handleStoneChange.bind(this);
@@ -20,8 +19,8 @@ class App extends Component {
 
     handleKgChange(event) {
         this.setState({kg: event.target.value});
-        let tmp = event.target.value / this.KG_TO_STONE;
-        this.setState({stone: tmp});
+        let tmp = weightConverter.kgToStoneLbs(event.target.value);
+        this.setState({stone: tmp.stone, lbs: tmp.lbs});
     }
 
     handleStoneChange(event) {
