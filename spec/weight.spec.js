@@ -15,3 +15,10 @@ test('stone to stone and lbs', ( ) => {
 test('stone lbs to kg', () => {
     expect(weightConverter.stoneLbsToKg(1, 7)).toBe(9.52);
 });
+
+test('to two dec places', () => {
+    expect(weightConverter.twoDecPlaces(1.3333333)).toBe(1.33);
+    expect(weightConverter.twoDecPlaces(1.339)).toBe(1.34);
+    expect(weightConverter.twoDecPlaces(1.335000)).toBe(1.34);
+    expect(weightConverter.twoDecPlaces(1.00000)).toBe(1.00);
+});
