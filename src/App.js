@@ -43,28 +43,29 @@ class App extends Component {
                     <h2>Convert kg to stone</h2>
                 </div>
                 <div>
-                    <input
-                        type="number"
-                        onChange={this.handleStoneChange}
-                        value={this.state.stone}
-                    />
-                    &nbsp;stone
+                    <div className="c-input">
+                        <input type="number"
+                            onChange={this.handleKgChange}
+                            value={this.state.kg}
+                            className="c-input_field" />
+                        &nbsp;kg
+                    </div>
                 </div>
                 <div>
-                    <input
-                        type="number"
-                        onChange={this.handleLbsChange}
-                        value={this.state.lbs}
-                    />
-                    &nbsp;lbs
-                </div>
-                <div>
-                    <input
-                        type="number"
-                        onChange={this.handleKgChange}
-                        value={this.state.kg}
-                    />
-                    &nbsp;kg
+                    <div className="c-input">
+                        <input type="number"
+                            onChange={this.handleStoneChange}
+                            value={this.state.stone}
+                            className="c-input_field" />
+                        &nbsp;stone
+                    </div>
+                    <div className="c-input">
+                        <input type="number"
+                            onChange={this.handleLbsChange}
+                            value={this.state.lbs}
+                            className="c-input_field" />
+                        &nbsp;lbs
+                    </div>
                 </div>
             </div>
         );

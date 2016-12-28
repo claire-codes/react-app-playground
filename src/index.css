@@ -3,3 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.App {
+    font-size: 20px;
+}
+
+.c-input {
+    display: inline-block;
+}
+
+.c-input_field {
+    background-color: aqua;
+    border: none;
+    font-size: 20px;
+}
