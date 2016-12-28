@@ -31,7 +31,11 @@ module.exports =  {
     stoneLbsToKg: function(stone, lbs) {
         stone = parseFloat(stone);
         lbs = parseFloat(lbs);
-        return this.twoDecPlaces(this.stoneToKg(stone + (lbs / 14)));
+        return this.twoDecPlaces(this.stoneToKg(stone + this.lbsToStone(lbs)));
+    },
+
+    lbsToStone: function(stone) {
+        return this.twoDecPlaces(stone / 14);
     },
 
     twoDecPlaces: function(numb) {
