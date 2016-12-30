@@ -35,6 +35,10 @@ class App extends Component {
         this.setState({kg: tmp});
     }
 
+    componentDidMount() {
+        this.nameInput.focus();
+    }
+
     render() {
         return (
             <div className="App">
@@ -45,7 +49,7 @@ class App extends Component {
                 <div className="c-input-holder">
                     <div>
                         <div className="c-input">
-                            <input type="number" onChange={this.handleKgChange} value={this.state.kg} className="c-input_field"/>
+                            <input type="number" onChange={this.handleKgChange} value={this.state.kg} className="c-input_field" ref={(input) => { this.nameInput = input; }}/>
                             &nbsp;kg
                         </div>
                     </div>
