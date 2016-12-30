@@ -8,12 +8,19 @@ body {
     font-size: 20px;
 }
 
+.c-input-holder {
+    margin: 20px;
+}
+
 .c-input {
     display: inline-block;
+    margin-bottom: 15px;
 }
 
 .c-input_field {
-    background-color: aqua;
+    background-color: #61dafb;
     border: none;
+    border-bottom: 1px solid black;
     font-size: 20px;
+    text-align: center;
 }

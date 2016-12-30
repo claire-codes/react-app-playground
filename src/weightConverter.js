@@ -1,5 +1,3 @@
-"use strict";
-
 module.exports =  {
     FACTOR: 6.35,
 
@@ -23,8 +21,8 @@ module.exports =  {
         rawStone = parseFloat(rawStone);
         let rawLbs = rawStone % 1;
         return {
-            stone: parseInt(rawStone),
-            lbs: parseInt(rawLbs * 14)
+            stone: parseInt(rawStone, 10),
+            lbs: parseInt(rawLbs * 14, 10)
         };
     },
 

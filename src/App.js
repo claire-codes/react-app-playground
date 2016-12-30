@@ -42,29 +42,22 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                     <h2>Convert kg to stone</h2>
                 </div>
-                <div>
-                    <div className="c-input">
-                        <input type="number"
-                            onChange={this.handleKgChange}
-                            value={this.state.kg}
-                            className="c-input_field" />
-                        &nbsp;kg
+                <div className="c-input-holder">
+                    <div>
+                        <div className="c-input">
+                            <input type="number" onChange={this.handleKgChange} value={this.state.kg} className="c-input_field"/>
+                            &nbsp;kg
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div className="c-input">
-                        <input type="number"
-                            onChange={this.handleStoneChange}
-                            value={this.state.stone}
-                            className="c-input_field" />
-                        &nbsp;stone
-                    </div>
-                    <div className="c-input">
-                        <input type="number"
-                            onChange={this.handleLbsChange}
-                            value={this.state.lbs}
-                            className="c-input_field" />
-                        &nbsp;lbs
+                    <div>
+                        <div className="c-input">
+                            <input type="number" onChange={this.handleStoneChange} value={this.state.stone} className="c-input_field"/>
+                            &nbsp;stone
+                        </div>
+                        <div className="c-input">
+                            <input type="number" onChange={this.handleLbsChange} value={this.state.lbs} className="c-input_field"/>
+                            &nbsp;lbs
+                        </div>
                     </div>
                 </div>
             </div>
