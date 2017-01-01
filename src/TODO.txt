@@ -1,6 +1,10 @@
 * Halves of pounds
 * Improve UI - kg at top and make it bigger
 * Test Component
+ * ~~test it exists~~
+ * test behaviour
 * Extract input into component?
 * Backspace bug
 * Validation
+* Remove 0 from initial state - need to run tests :D
+* ~~Doesn't like nothing~~
