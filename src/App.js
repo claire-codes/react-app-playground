@@ -19,20 +19,26 @@ class App extends Component {
 
     handleKgChange(event) {
         this.setState({kg: event.target.value});
-        let tmp = weightConverter.kgToStoneLbs(event.target.value);
-        this.setState({stone: tmp.stone, lbs: tmp.lbs});
+        if (event.target.value) {
+            let tmp = weightConverter.kgToStoneLbs(event.target.value);
+            this.setState({stone: tmp.stone, lbs: tmp.lbs});
+        }
     }
 
     handleStoneChange(event) {
         this.setState({stone: event.target.value});
-        let tmp = weightConverter.stoneLbsToKg(event.target.value, this.state.lbs);
-        this.setState({kg: tmp});
+        if (event.target.value) {
+            let tmp = weightConverter.stoneLbsToKg(event.target.value, this.state.lbs);
+            this.setState({kg: tmp});
+        }
     }
 
     handleLbsChange(event) {
         this.setState({lbs: event.target.value});
-        let tmp = weightConverter.stoneLbsToKg(this.state.stone, event.target.value);
-        this.setState({kg: tmp});
+        if (event.target.value) {
+            let tmp = weightConverter.stoneLbsToKg(this.state.stone, event.target.value);
+            this.setState({kg: tmp});
+        }
     }
 
     componentDidMount() {
@@ -49,17 +55,33 @@ class App extends Component {
                 <div className="c-input-holder">
                     <div>
                         <div className="c-input">
-                            <input type="number" onChange={this.handleKgChange} value={this.state.kg} className="c-input_field" ref={(input) => { this.nameInput = input; }}/>
+                            <input
+                                type="number"
+                                onChange={this.handleKgChange}
+                                value={this.state.kg}
+                                className="c-input_field"
+                                ref={(input) => { this.nameInput = input; }}
+                            />
                             &nbsp;kg
                         </div>
                     </div>
                     <div>
                         <div className="c-input">
-                            <input type="number" onChange={this.handleStoneChange} value={this.state.stone} className="c-input_field"/>
+                            <input
+                                type="number"
+                                onChange={this.handleStoneChange}
+                                value={this.state.stone}
+                                className="c-input_field"
+                            />
                             &nbsp;stone
                         </div>
                         <div className="c-input">
-                            <input type="number" onChange={this.handleLbsChange} value={this.state.lbs} className="c-input_field"/>
+                            <input
+                                type="number"
+                                onChange={this.handleLbsChange}
+                                value={this.state.lbs}
+                                className="c-input_field"
+                            />
                             &nbsp;lbs
                         </div>
                     </div>
