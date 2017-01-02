@@ -59,7 +59,7 @@ class App extends Component {
                                 type="number"
                                 onChange={this.handleKgChange}
                                 value={this.state.kg}
-                                className="c-input_field"
+                                className="c-input_field z-kg-input"
                                 ref={(input) => { this.nameInput = input; }}
                             />
                             &nbsp;kg
@@ -71,7 +71,7 @@ class App extends Component {
                                 type="number"
                                 onChange={this.handleStoneChange}
                                 value={this.state.stone}
-                                className="c-input_field"
+                                className="c-input_field z-stone-input"
                             />
                             &nbsp;stone
                         </div>
@@ -80,7 +80,7 @@ class App extends Component {
                                 type="number"
                                 onChange={this.handleLbsChange}
                                 value={this.state.lbs}
-                                className="c-input_field"
+                                className="c-input_field z-lbs-input"
                             />
                             &nbsp;lbs
                         </div>
