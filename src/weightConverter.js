@@ -22,7 +22,7 @@ module.exports =  {
         let rawLbs = rawStone % 1;
         return {
             stone: parseInt(rawStone, 10),
-            lbs: parseInt(rawLbs * 14, 10)
+            lbs: this.nearestHalfPound(rawLbs * 14)
         };
     },
 
@@ -38,5 +38,9 @@ module.exports =  {
 
     twoDecPlaces: function(numb) {
         return Math.round(numb * 100) / 100;
+    },
+
+    nearestHalfPound: function(numb) {
+        return Math.round(numb * 2) / 2;
     }
 }

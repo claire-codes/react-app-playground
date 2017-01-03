@@ -1,8 +1,9 @@
-* Halves of pounds
-* Improve UI - kg at top and make it bigger
+* ~~Halves of pounds~~
+* ~~Improve UI - kg at top and make it bigger~~
 * Test Component
  * ~~test it exists~~
  * test behaviour
+ * check that string bug
 * Extract input into component?
 * Backspace bug
 * Validation

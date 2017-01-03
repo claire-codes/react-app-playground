@@ -6,6 +6,7 @@ test('kg to stone', () => {
 
 test('kg to stone lbs', () => {
     expect(weightConverter.kgToStoneLbs(1)).toEqual({stone: 0, lbs: 2});
+    expect(weightConverter.kgToStoneLbs(0.7)).toEqual({stone: 0, lbs: 1.5});
 });
 
 test('stone to kg', () => {
@@ -32,4 +33,12 @@ test('to two dec places', () => {
     expect(weightConverter.twoDecPlaces(1.339)).toBe(1.34);
     expect(weightConverter.twoDecPlaces(1.335000)).toBe(1.34);
     expect(weightConverter.twoDecPlaces(1.00000)).toBe(1.00);
+});
+
+test('to nearest half pound', () => {
+    expect(weightConverter.nearestHalfPound(1.333)).toBe(1.5);
+    expect(weightConverter.nearestHalfPound(0)).toBe(0);
+    expect(weightConverter.nearestHalfPound(1)).toBe(1);
+    expect(weightConverter.nearestHalfPound(1.5)).toBe(1.5);
+    expect(weightConverter.nearestHalfPound(1.9)).toBe(2);
 });
