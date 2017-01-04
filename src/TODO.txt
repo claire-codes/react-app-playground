@@ -5,7 +5,7 @@
  * test behaviour
  * check that string bug
 * Extract input into component?
-* Backspace bug
+* Backspace bug: backspace just before decimal point
 * Validation
 * Remove 0 from initial state - need to run tests :D
 * ~~Doesn't like nothing~~

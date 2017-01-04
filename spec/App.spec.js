@@ -28,16 +28,18 @@ describe('Behaviour tests', () => {
         app = mount(<App />);
     });
 
-    it('renders header text', () => {
+    it('renders text and state is OK', () => {
         expect(app.find('.App-header').first()).toBeDefined();
+        expect(app.state('kg')).toEqual(0);
+        expect(app.state('stone')).toEqual(0);
+        expect(app.state('lbs')).toEqual(0);
     });
 
     it('calls handleLbsChange when value changes', () => {
          const lbsInput = app.find('.z-lbs-input').first();
-         expect(app.state('kg')).toEqual(0);
-         expect(app.state('lbs')).toEqual(0);
-         lbsInput.simulate('change', { target: { value: '2' } });
+         lbsInput.simulate('change', { target: { value: 2 } });
          expect(app.state('kg')).toEqual(0.89);
-         expect(app.state('lbs')).toEqual("2");
+         expect(app.state('stone')).toEqual(0);
+         expect(app.state('lbs')).toEqual(2);
     });
 });
