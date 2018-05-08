@@ -79,7 +79,6 @@ class App extends Component {
                             type="number"
                             onChange={this.handleKgChange}
                             value={this.state.kg}
-                            className="z-kg-input"
                             innerRef={(input) => { this.nameInput = input; }}
                         />
                         &nbsp;kg
@@ -89,7 +88,6 @@ class App extends Component {
                             type="number"
                             onChange={this.handleStoneChange}
                             value={this.state.stone}
-                            className="z-stone-input"
                         />
                         &nbsp;stone
                     </InputWrapper>
@@ -98,7 +96,6 @@ class App extends Component {
                             type="number"
                             onChange={this.handleLbsChange}
                             value={this.state.lbs}
-                            className="z-lbs-input"
                         />
                         &nbsp;lbs
                     </InputWrapper>
