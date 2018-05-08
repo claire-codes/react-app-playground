@@ -1,7 +1,21 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 import weightConverter from './weightConverter';
 import logo from './logo.svg';
 import './App.css';
+
+const InputHolder = styled.div`
+  margin: 20px;
+`;
+
+const InputField = styled.input`
+  background-color: #61dafb;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+`;
+
 
 class App extends Component {
     constructor(props) {
@@ -52,22 +66,22 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                     <h2>Convert kg to stone</h2>
                 </div>
-                <div className="c-input-holder">
+                <InputHolder>
                     <div>
-                        <div className="c-input">
-                            <input
+                        <InputHolder>
+                            <InputField
                                 type="number"
                                 onChange={this.handleKgChange}
                                 value={this.state.kg}
                                 className="c-input_field z-kg-input"
-                                ref={(input) => { this.nameInput = input; }}
+                                innerRef={(input) => { this.nameInput = input; }}
                             />
                             &nbsp;kg
-                        </div>
+                        </InputHolder>
                     </div>
                     <div>
                         <div className="c-input">
-                            <input
+                            <InputField
                                 type="number"
                                 onChange={this.handleStoneChange}
                                 value={this.state.stone}
@@ -76,7 +90,7 @@ class App extends Component {
                             &nbsp;stone
                         </div>
                         <div className="c-input">
-                            <input
+                            <InputField
                                 type="number"
                                 onChange={this.handleLbsChange}
                                 value={this.state.lbs}
@@ -85,7 +99,7 @@ class App extends Component {
                             &nbsp;lbs
                         </div>
                     </div>
-                </div>
+                </InputHolder>
             </div>
         );
     }
