@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
+import Foo from './Foo';
+
 import weightConverter from './weightConverter';
 import logo from './logo.svg';
 import './App.css';
@@ -100,6 +102,9 @@ class App extends Component {
                         &nbsp;lbs
                     </InputWrapper>
                 </InputHolder>
+                <Foo>
+                  <h2>Hello World</h2>
+                </Foo>
             </div>
         );
     }
