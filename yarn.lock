@@ -2573,7 +2573,7 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-enzyme@^3.3.0:
+enzyme@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/enzyme/-/enzyme-3.6.0.tgz#d213f280a258f61e901bc663d4cc2d6fd9a9dec8"
   dependencies:
@@ -6944,7 +6944,7 @@ react-is@^16.3.1:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.0.tgz#2ec7c192709698591efe13722fab3ef56144ba55"
 
-react-scripts@^1.1.4:
+react-scripts@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.1.5.tgz#3041610ab0826736b52197711a4c4e3756e97768"
   dependencies:
