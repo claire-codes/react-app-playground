@@ -1,0 +1,16 @@
+- ~~Halves of pounds~~
+- ~~Improve UI - kg at top and make it bigger~~
+- Test Component
+- ~~test it exists~~
+- test behaviour
+- check that string bug
+- Extract input into component?
+- Backspace bug: backspace just before decimal point
+- Validation
+- Remove 0 from initial state - need to run tests :D
+- ~~Doesn't like nothing~~
+- BUG 69.8kg shows 10st 14lb
+- Fix weird indenting on Atom on work laptop
+- Investigate whether stylelint works with weird bug version
+- Add a snapshot test
+- Add example of ternary to styled-component
