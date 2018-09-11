@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     FACTOR: 6.35,
 
     kgToStone: function(kg) {
@@ -22,7 +22,7 @@ module.exports =  {
         let rawLbs = rawStone % 1;
         return {
             stone: parseInt(rawStone, 10),
-            lbs: this.nearestHalfPound(rawLbs * 14)
+            lbs: this.nearestHalfPound(rawLbs * 14),
         };
     },
 
@@ -42,5 +42,5 @@ module.exports =  {
 
     nearestHalfPound: function(numb) {
         return Math.round(numb * 2) / 2;
-    }
-}
+    },
+};
