@@ -1,12 +1,14 @@
-const weightConverter = require('../src/weightConverter');
+const weightConverter = require('../weightConverter');
 
 test('kg to stone', () => {
     expect(weightConverter.kgToStone(1)).toBe(0.16);
+    expect(weightConverter.kgToStone(69.8)).toBe(10.99);
 });
 
 test('kg to stone lbs', () => {
-    expect(weightConverter.kgToStoneLbs(1)).toEqual({stone: 0, lbs: 2});
-    expect(weightConverter.kgToStoneLbs(0.7)).toEqual({stone: 0, lbs: 1.5});
+    expect(weightConverter.kgToStoneLbs(1)).toEqual({ stone: 0, lbs: 2 });
+    expect(weightConverter.kgToStoneLbs(0.7)).toEqual({ stone: 0, lbs: 1.5 });
+    expect(weightConverter.kgToStoneLbs(69.8)).toEqual({ stone: 11, lbs: 0 });
 });
 
 test('stone to kg', () => {
@@ -14,7 +16,11 @@ test('stone to kg', () => {
 });
 
 test('stone to stone and lbs', () => {
-    expect(weightConverter.stoneToStoneLbs(1.5)).toEqual({stone: 1, lbs: 7});
+    expect(weightConverter.stoneToStoneLbs(1.5)).toEqual({ stone: 1, lbs: 7 });
+    expect(weightConverter.stoneToStoneLbs(10.99)).toEqual({
+        stone: 11,
+        lbs: 0,
+    });
 });
 
 test('stone lbs to kg', () => {
@@ -31,8 +37,8 @@ test('lbs to stone', () => {
 test('to two dec places', () => {
     expect(weightConverter.twoDecPlaces(1.3333333)).toBe(1.33);
     expect(weightConverter.twoDecPlaces(1.339)).toBe(1.34);
-    expect(weightConverter.twoDecPlaces(1.335000)).toBe(1.34);
-    expect(weightConverter.twoDecPlaces(1.00000)).toBe(1.00);
+    expect(weightConverter.twoDecPlaces(1.335)).toBe(1.34);
+    expect(weightConverter.twoDecPlaces(1.0)).toBe(1.0);
 });
 
 test('to nearest half pound', () => {
