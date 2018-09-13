@@ -6,4 +6,3 @@
 -   Backspace bug: backspace just before decimal point
 -   Validation
 -   Remove 0 from initial state - need to run tests :D
--   BUG 69.8kg shows 10st 14lb

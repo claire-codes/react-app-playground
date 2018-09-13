@@ -45,6 +45,9 @@ test('to nearest half pound', () => {
     expect(weightConverter.nearestHalfPound(1.333)).toBe(1.5);
     expect(weightConverter.nearestHalfPound(0)).toBe(0);
     expect(weightConverter.nearestHalfPound(1)).toBe(1);
+    expect(weightConverter.nearestHalfPound(1.1)).toBe(1);
+    expect(weightConverter.nearestHalfPound(1.4)).toBe(1.5);
     expect(weightConverter.nearestHalfPound(1.5)).toBe(1.5);
+    expect(weightConverter.nearestHalfPound(1.6)).toBe(1.5);
     expect(weightConverter.nearestHalfPound(1.9)).toBe(2);
 });

@@ -20,6 +20,13 @@ module.exports = {
     stoneToStoneLbs: function(rawStone) {
         rawStone = parseFloat(rawStone);
         let rawLbs = rawStone % 1;
+        let lbs = this.nearestHalfPound(rawLbs * 14);
+        if (lbs === 14) {
+            return {
+                stone: Math.ceil(rawStone),
+                lbs: 0,
+            };
+        }
         return {
             stone: parseInt(rawStone, 10),
             lbs: this.nearestHalfPound(rawLbs * 14),
