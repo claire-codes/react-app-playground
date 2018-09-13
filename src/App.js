@@ -109,8 +109,11 @@ class App extends Component {
                         &nbsp;lbs
                     </InputWrapper>
                 </InputHolder>
-                <Foo>
+                <Foo invisible={true}>
                     <h2>Hello World</h2>
+                </Foo>
+                <Foo>
+                    <h2>Goodbye Cruel World</h2>
                 </Foo>
             </div>
         );

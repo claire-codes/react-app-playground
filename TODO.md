@@ -7,5 +7,3 @@
 -   Validation
 -   Remove 0 from initial state - need to run tests :D
 -   BUG 69.8kg shows 10st 14lb
--   Investigate whether stylelint works with weird bug version
--   Add example of ternary to styled-component

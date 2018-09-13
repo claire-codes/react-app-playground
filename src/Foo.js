@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 const Foo = styled.div`
-    height: 100px;
+    height: 50px;
     width: 200px;
-    background-color: #61dafb;
+    background-color: ${props => (props.invisible ? 'transparent' : '#61dafb')};
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     :hover {
         background-color: #dfffff;
