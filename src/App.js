@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Foo from './Foo';
+import Widget from './Widget';
 
 import weightConverter from './weightConverter';
 import logo from './logo.svg';
@@ -115,6 +116,8 @@ class App extends Component {
                 <Foo>
                     <h2>Goodbye Cruel World</h2>
                 </Foo>
+                <Widget text="make me a child thing" invisible />
+                <Widget text="make me a child thing" />
             </div>
         );
     }
