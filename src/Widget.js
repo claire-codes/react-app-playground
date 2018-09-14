@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const StyledWidget = styled.div`
@@ -15,8 +15,8 @@ const StyledWidget = styled.div`
         margin-bottom: 10px;`};
 `;
 
-const Widget = ({ text, invisible }) => {
-    return <StyledWidget invisible={invisible}>{text}</StyledWidget>;
-};
+const Widget = ({ children, invisible }) => (
+    <StyledWidget invisible={invisible}>{children}</StyledWidget>
+);
 
 export default Widget;

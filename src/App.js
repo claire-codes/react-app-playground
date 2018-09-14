@@ -116,8 +116,8 @@ class App extends Component {
                 <Foo>
                     <h2>Goodbye Cruel World</h2>
                 </Foo>
-                <Widget text="make me a child thing" invisible />
-                <Widget text="make me a child thing" />
+                <Widget invisible>Fancy pants child prop</Widget>
+                <Widget>Text is a child prop</Widget>
             </div>
         );
     }
