@@ -27,7 +27,7 @@ describe('snapshot tests', () => {
     // I tried a mount but it seemed to make the tests hang
 });
 
-xdescribe('Enzyme tests', () => {
+describe('Enzyme tests', () => {
     // These first two are testing that it exists in the structure we expect
     it('renders header text', () => {
         const app = shallow(<App />);
@@ -35,12 +35,12 @@ xdescribe('Enzyme tests', () => {
     });
 
     it('has exactly three input fields', () => {
-        const app = shallow(<App />);
+        const app = mount(<App />);
         expect(app.find('input[type="number"]').length).toEqual(3);
     });
 });
 
-xdescribe('Behaviour tests', () => {
+describe('Behaviour tests', () => {
     let app;
 
     beforeEach(() => {

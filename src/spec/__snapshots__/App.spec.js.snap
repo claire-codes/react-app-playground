@@ -50,6 +50,7 @@ ShallowWrapper {
           </styled.div>
           <styled.div>
                     <styled.input
+                              className="z-lbs-input"
                               onChange={[Function]}
                               type="number"
                               value={0}
@@ -153,6 +154,7 @@ ShallowWrapper {
 </styled.div>,
             <styled.div>
               <styled.input
+                            className="z-lbs-input"
                             onChange={[Function]}
                             type="number"
                             value={0}
@@ -238,6 +240,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <styled.input
+                  className="z-lbs-input"
                   onChange={[Function]}
                   type="number"
                   value={0}
@@ -252,6 +255,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
+                  "className": "z-lbs-input",
                   "onChange": [Function],
                   "type": "number",
                   "value": 0,
@@ -379,6 +383,7 @@ ShallowWrapper {
             </styled.div>
             <styled.div>
                         <styled.input
+                                    className="z-lbs-input"
                                     onChange={[Function]}
                                     type="number"
                                     value={0}
@@ -482,6 +487,7 @@ ShallowWrapper {
 </styled.div>,
               <styled.div>
                 <styled.input
+                                className="z-lbs-input"
                                 onChange={[Function]}
                                 type="number"
                                 value={0}
@@ -567,6 +573,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <styled.input
+                    className="z-lbs-input"
                     onChange={[Function]}
                     type="number"
                     value={0}
@@ -581,6 +588,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
+                    "className": "z-lbs-input",
                     "onChange": [Function],
                     "type": "number",
                     "value": 0,
@@ -737,7 +745,7 @@ exports[`snapshot tests Snapshot on <App /> | react-test-renderer 1`] = `
       className="sc-ifAKCX ftoKPH"
     >
       <input
-        className="sc-bxivhb ihvhmd"
+        className="z-lbs-input sc-bxivhb ihvhmd"
         onChange={[Function]}
         type="number"
         value={0}

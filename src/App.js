@@ -106,6 +106,7 @@ class App extends Component {
                             type="number"
                             onChange={this.handleLbsChange}
                             value={this.state.lbs}
+                            className="z-lbs-input"
                         />
                         &nbsp;lbs
                     </InputWrapper>
