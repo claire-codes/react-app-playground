@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import { mount, shallow } from 'enzyme';
 import App from '../App';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 it('renders without crashing', () => {
     const div = document.createElement('div');
@@ -10,10 +14,17 @@ it('renders without crashing', () => {
 });
 
 describe('snapshot tests', () => {
-    it('does a simple snapshot test on <App />', () => {
+    it('Snapshot on <App /> | react-test-renderer', () => {
         const component = renderer.create(<App />).toJSON();
         expect(component).toMatchSnapshot();
     });
+
+    it('Snapshot on <App /> | enzyme shallow', () => {
+        const component = shallow(<App />);
+        expect(component).toMatchSnapshot();
+    });
+
+    // I tried a mount but it seemed to make the tests hang
 });
 
 xdescribe('Enzyme tests', () => {

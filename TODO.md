@@ -1,8 +1,8 @@
 -   Test Component
     -   test behaviour
-    -   add snapshot test
 -   check that string bug
 -   Extract input into component?
 -   Backspace bug: backspace just before decimal point
 -   Validation
 -   Remove 0 from initial state - need to run tests :D
+-   this.nameInput bug that breaks snapshot in componentDidMount
