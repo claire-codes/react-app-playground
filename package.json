@@ -4,8 +4,8 @@
     "private": true,
     "devDependencies": {
         "enzyme": "^3.6.0",
-        "react-addons-test-utils": "^15.4.2",
-        "react-scripts": "^1.1.5"
+        "react-scripts": "^1.1.5",
+        "react-test-renderer": "^16.5.0"
     },
     "dependencies": {
         "prettier": "^1.14.2",

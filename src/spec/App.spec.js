@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 import { mount, shallow } from 'enzyme';
 import App from '../App';
 
-xit('renders without crashing', () => {
+it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<App />, div);
+});
+
+describe('snapshot tests', () => {
+    it('does a simple snapshot test on <App />', () => {
+        const component = renderer.create(<App />).toJSON();
+        expect(component).toMatchSnapshot();
+    });
 });
 
 xdescribe('Enzyme tests', () => {

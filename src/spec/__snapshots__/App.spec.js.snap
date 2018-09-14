@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot tests does a simple snapshot test on <App /> 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      Convert kg to stone
+    </h2>
+  </div>
+  <div
+    className="sc-htpNat eusUoO"
+  >
+    <div
+      className="sc-htpNat eusUoO"
+    >
+      <input
+        className="sc-bxivhb ihvhmd"
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+       kg
+    </div>
+    <div
+      className="sc-ifAKCX ftoKPH"
+    >
+      <input
+        className="sc-bxivhb ihvhmd"
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+       stone
+    </div>
+    <div
+      className="sc-ifAKCX ftoKPH"
+    >
+      <input
+        className="sc-bxivhb ihvhmd"
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+       lbs
+    </div>
+  </div>
+  <div
+    className="sc-bdVaJa empOPp"
+  >
+    <h2>
+      Hello World
+    </h2>
+  </div>
+  <div
+    className="sc-bdVaJa ivQMso"
+  >
+    <h2>
+      Goodbye Cruel World
+    </h2>
+  </div>
+  <div
+    className="sc-bwzfXH ZZYNN"
+  >
+    Fancy pants child prop
+  </div>
+  <div
+    className="sc-bwzfXH fTfPYm"
+  >
+    Text is a child prop
+  </div>
+</div>
+`;

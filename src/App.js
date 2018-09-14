@@ -71,7 +71,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        this.nameInput.focus();
+        if (this.nameInput) this.nameInput.focus();
     }
 
     render() {
