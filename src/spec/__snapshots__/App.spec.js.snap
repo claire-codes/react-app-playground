@@ -20,64 +20,64 @@ ShallowWrapper {
       "children": Array [
         <div
           className="App-header"
->
+        >
           <img
-                    alt="logo"
-                    className="App-logo"
-                    src="logo.svg"
+            alt="logo"
+            className="App-logo"
+            src="logo.svg"
           />
           <h2>
-                    Convert kg to stone
+            Convert kg to stone
           </h2>
-</div>,
+        </div>,
         <styled.div>
           <styled.div>
-                    <styled.input
-                              innerRef={[Function]}
-                              onChange={[Function]}
-                              type="number"
-                              value={0}
-                    />
-                     kg
+            <styled.input
+              innerRef={[Function]}
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />
+             kg
           </styled.div>
           <styled.div>
-                    <styled.input
-                              onChange={[Function]}
-                              type="number"
-                              value={0}
-                    />
-                     stone
+            <styled.input
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />
+             stone
           </styled.div>
           <styled.div>
-                    <styled.input
-                              className="z-lbs-input"
-                              onChange={[Function]}
-                              type="number"
-                              value={0}
-                    />
-                     lbs
+            <styled.input
+              className="z-lbs-input"
+              onChange={[Function]}
+              type="number"
+              value={0}
+            />
+             lbs
           </styled.div>
-</styled.div>,
+        </styled.div>,
         <styled.div
           invisible={true}
->
+        >
           <h2>
-                    Hello World
+            Hello World
           </h2>
-</styled.div>,
+        </styled.div>,
         <styled.div>
           <h2>
-                    Goodbye Cruel World
+            Goodbye Cruel World
           </h2>
-</styled.div>,
+        </styled.div>,
         <Widget
           invisible={true}
->
+        >
           Fancy pants child prop
-</Widget>,
+        </Widget>,
         <Widget>
           Text is a child prop
-</Widget>,
+        </Widget>,
       ],
       "className": "App",
     },
@@ -93,10 +93,10 @@ ShallowWrapper {
               alt="logo"
               className="App-logo"
               src="logo.svg"
-/>,
+            />,
             <h2>
               Convert kg to stone
-</h2>,
+            </h2>,
           ],
           "className": "App-header",
         },
@@ -137,30 +137,30 @@ ShallowWrapper {
           "children": Array [
             <styled.div>
               <styled.input
-                            innerRef={[Function]}
-                            onChange={[Function]}
-                            type="number"
-                            value={0}
+                innerRef={[Function]}
+                onChange={[Function]}
+                type="number"
+                value={0}
               />
                kg
-</styled.div>,
+            </styled.div>,
             <styled.div>
               <styled.input
-                            onChange={[Function]}
-                            type="number"
-                            value={0}
+                onChange={[Function]}
+                type="number"
+                value={0}
               />
                stone
-</styled.div>,
+            </styled.div>,
             <styled.div>
               <styled.input
-                            className="z-lbs-input"
-                            onChange={[Function]}
-                            type="number"
-                            value={0}
+                className="z-lbs-input"
+                onChange={[Function]}
+                type="number"
+                value={0}
               />
                lbs
-</styled.div>,
+            </styled.div>,
           ],
         },
         "ref": null,
@@ -176,7 +176,7 @@ ShallowWrapper {
                   onChange={[Function]}
                   type="number"
                   value={0}
-/>,
+                />,
                 " kg",
               ],
             },
@@ -210,7 +210,7 @@ ShallowWrapper {
                   onChange={[Function]}
                   type="number"
                   value={0}
-/>,
+                />,
                 " stone",
               ],
             },
@@ -244,7 +244,7 @@ ShallowWrapper {
                   onChange={[Function]}
                   type="number"
                   value={0}
-/>,
+                />,
                 " lbs",
               ],
             },
@@ -278,7 +278,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h2>
             Hello World
-</h2>,
+          </h2>,
           "invisible": true,
         },
         "ref": null,
@@ -302,7 +302,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h2>
             Goodbye Cruel World
-</h2>,
+          </h2>,
         },
         "ref": null,
         "rendered": Object {
@@ -353,64 +353,64 @@ ShallowWrapper {
         "children": Array [
           <div
             className="App-header"
->
+          >
             <img
-                        alt="logo"
-                        className="App-logo"
-                        src="logo.svg"
+              alt="logo"
+              className="App-logo"
+              src="logo.svg"
             />
             <h2>
-                        Convert kg to stone
+              Convert kg to stone
             </h2>
-</div>,
+          </div>,
           <styled.div>
             <styled.div>
-                        <styled.input
-                                    innerRef={[Function]}
-                                    onChange={[Function]}
-                                    type="number"
-                                    value={0}
-                        />
-                         kg
+              <styled.input
+                innerRef={[Function]}
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+               kg
             </styled.div>
             <styled.div>
-                        <styled.input
-                                    onChange={[Function]}
-                                    type="number"
-                                    value={0}
-                        />
-                         stone
+              <styled.input
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+               stone
             </styled.div>
             <styled.div>
-                        <styled.input
-                                    className="z-lbs-input"
-                                    onChange={[Function]}
-                                    type="number"
-                                    value={0}
-                        />
-                         lbs
+              <styled.input
+                className="z-lbs-input"
+                onChange={[Function]}
+                type="number"
+                value={0}
+              />
+               lbs
             </styled.div>
-</styled.div>,
+          </styled.div>,
           <styled.div
             invisible={true}
->
+          >
             <h2>
-                        Hello World
+              Hello World
             </h2>
-</styled.div>,
+          </styled.div>,
           <styled.div>
             <h2>
-                        Goodbye Cruel World
+              Goodbye Cruel World
             </h2>
-</styled.div>,
+          </styled.div>,
           <Widget
             invisible={true}
->
+          >
             Fancy pants child prop
-</Widget>,
+          </Widget>,
           <Widget>
             Text is a child prop
-</Widget>,
+          </Widget>,
         ],
         "className": "App",
       },
@@ -426,10 +426,10 @@ ShallowWrapper {
                 alt="logo"
                 className="App-logo"
                 src="logo.svg"
-/>,
+              />,
               <h2>
                 Convert kg to stone
-</h2>,
+              </h2>,
             ],
             "className": "App-header",
           },
@@ -470,30 +470,30 @@ ShallowWrapper {
             "children": Array [
               <styled.div>
                 <styled.input
-                                innerRef={[Function]}
-                                onChange={[Function]}
-                                type="number"
-                                value={0}
+                  innerRef={[Function]}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
                 />
                  kg
-</styled.div>,
+              </styled.div>,
               <styled.div>
                 <styled.input
-                                onChange={[Function]}
-                                type="number"
-                                value={0}
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
                 />
                  stone
-</styled.div>,
+              </styled.div>,
               <styled.div>
                 <styled.input
-                                className="z-lbs-input"
-                                onChange={[Function]}
-                                type="number"
-                                value={0}
+                  className="z-lbs-input"
+                  onChange={[Function]}
+                  type="number"
+                  value={0}
                 />
                  lbs
-</styled.div>,
+              </styled.div>,
             ],
           },
           "ref": null,
@@ -509,7 +509,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     type="number"
                     value={0}
-/>,
+                  />,
                   " kg",
                 ],
               },
@@ -543,7 +543,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     type="number"
                     value={0}
-/>,
+                  />,
                   " stone",
                 ],
               },
@@ -577,7 +577,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     type="number"
                     value={0}
-/>,
+                  />,
                   " lbs",
                 ],
               },
@@ -611,7 +611,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h2>
               Hello World
-</h2>,
+            </h2>,
             "invisible": true,
           },
           "ref": null,
@@ -635,7 +635,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h2>
               Goodbye Cruel World
-</h2>,
+            </h2>,
           },
           "ref": null,
           "rendered": Object {
@@ -694,8 +694,6 @@ ShallowWrapper {
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;
