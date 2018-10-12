@@ -54,7 +54,7 @@ describe('Behaviour tests', () => {
     });
 
     it('calls handleLbsChange when value changes', () => {
-        const lbsInput = app.find('.z-lbs-input').first();
+        const lbsInput = app.find('.qa-lbs-input').first();
         lbsInput.simulate('change', { target: { value: 2 } });
         expect(app.state('kg')).toEqual(0.89);
         expect(app.state('stone')).toEqual(0);
