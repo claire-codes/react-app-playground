@@ -21,12 +21,12 @@ ShallowWrapper {
         <div
           className="App-header"
         >
-          <img
-            alt="logo"
+          <ReactComponent
             className="App-logo"
-            src="logo.svg"
           />
-          <h2>
+          <h2
+            className="qa-header"
+          >
             Convert kg to stone
           </h2>
         </div>,
@@ -89,12 +89,12 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <img
-              alt="logo"
+            <ReactComponent
               className="App-logo"
-              src="logo.svg"
             />,
-            <h2>
+            <h2
+              className="qa-header"
+            >
               Convert kg to stone
             </h2>,
           ],
@@ -105,15 +105,13 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "alt": "logo",
               "className": "App-logo",
-              "src": "logo.svg",
             },
             "ref": null,
             "rendered": null,
-            "type": "img",
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -121,6 +119,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Convert kg to stone",
+              "className": "qa-header",
             },
             "ref": null,
             "rendered": "Convert kg to stone",
@@ -354,12 +353,12 @@ ShallowWrapper {
           <div
             className="App-header"
           >
-            <img
-              alt="logo"
+            <ReactComponent
               className="App-logo"
-              src="logo.svg"
             />
-            <h2>
+            <h2
+              className="qa-header"
+            >
               Convert kg to stone
             </h2>
           </div>,
@@ -422,12 +421,12 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <img
-                alt="logo"
+              <ReactComponent
                 className="App-logo"
-                src="logo.svg"
               />,
-              <h2>
+              <h2
+                className="qa-header"
+              >
                 Convert kg to stone
               </h2>,
             ],
@@ -438,15 +437,13 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "alt": "logo",
                 "className": "App-logo",
-                "src": "logo.svg",
               },
               "ref": null,
               "rendered": null,
-              "type": "img",
+              "type": [Function],
             },
             Object {
               "instance": null,
@@ -454,6 +451,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Convert kg to stone",
+                "className": "qa-header",
               },
               "ref": null,
               "rendered": "Convert kg to stone",
@@ -705,12 +703,14 @@ exports[`snapshot tests Snapshot on <App /> | react-test-renderer 1`] = `
   <div
     className="App-header"
   >
-    <img
-      alt="logo"
+    <svg
       className="App-logo"
-      src="logo.svg"
-    />
-    <h2>
+    >
+      logo.svg
+    </svg>
+    <h2
+      className="qa-header"
+    >
       Convert kg to stone
     </h2>
   </div>

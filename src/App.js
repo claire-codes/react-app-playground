@@ -5,7 +5,7 @@ import Foo from './Foo';
 import Widget from './Widget';
 
 import weightConverter from './weightConverter';
-import logo from './logo.svg';
+import { ReactComponent as Logo } from './logo.svg';
 import './App.css';
 
 const InputHolder = styled.div`
@@ -78,8 +78,8 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Convert kg to stone</h2>
+                    <Logo className="App-logo" />
+                    <h2 className="qa-header">Convert kg to stone</h2>
                 </div>
                 <InputHolder>
                     <InputHolder>

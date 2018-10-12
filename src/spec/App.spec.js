@@ -30,7 +30,7 @@ describe('Enzyme tests', () => {
     // These first two are testing that it exists in the structure we expect
     it('renders header text', () => {
         const app = shallow(<App />);
-        expect(app.find('.App-header').text()).toEqual('Convert kg to stone');
+        expect(app.find('.qa-header').text()).toEqual('Convert kg to stone');
     });
 
     it('has exactly three input fields', () => {
