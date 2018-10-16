@@ -30,46 +30,46 @@ ShallowWrapper {
             Convert kg to stone
           </h2>
         </div>,
-        <styled.div>
-          <styled.div>
-            <styled.input
+        <ForwardRef>
+          <ForwardRef>
+            <ForwardRef
               innerRef={[Function]}
               onChange={[Function]}
               type="number"
               value={0}
             />
              kg
-          </styled.div>
-          <styled.div>
-            <styled.input
+          </ForwardRef>
+          <ForwardRef>
+            <ForwardRef
               onChange={[Function]}
               type="number"
               value={0}
             />
              stone
-          </styled.div>
-          <styled.div>
-            <styled.input
+          </ForwardRef>
+          <ForwardRef>
+            <ForwardRef
               className="qa-lbs-input"
               onChange={[Function]}
               type="number"
               value={0}
             />
              lbs
-          </styled.div>
-        </styled.div>,
-        <styled.div
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef
           invisible={true}
         >
           <h2>
             Hello World
           </h2>
-        </styled.div>,
-        <styled.div>
+        </ForwardRef>,
+        <ForwardRef>
           <h2>
             Goodbye Cruel World
           </h2>
-        </styled.div>,
+        </ForwardRef>,
         <Widget
           invisible={true}
         >
@@ -131,35 +131,35 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": Array [
-            <styled.div>
-              <styled.input
+            <ForwardRef>
+              <ForwardRef
                 innerRef={[Function]}
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                kg
-            </styled.div>,
-            <styled.div>
-              <styled.input
+            </ForwardRef>,
+            <ForwardRef>
+              <ForwardRef
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                stone
-            </styled.div>,
-            <styled.div>
-              <styled.input
+            </ForwardRef>,
+            <ForwardRef>
+              <ForwardRef
                 className="qa-lbs-input"
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                lbs
-            </styled.div>,
+            </ForwardRef>,
           ],
         },
         "ref": null,
@@ -167,10 +167,10 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": Array [
-                <styled.input
+                <ForwardRef
                   innerRef={[Function]}
                   onChange={[Function]}
                   type="number"
@@ -184,7 +184,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "innerRef": [Function],
                   "onChange": [Function],
@@ -193,19 +193,61 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": null,
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "ihvhmd",
+                    "rules": Array [
+                      "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.input",
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "input",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
               },
               " kg",
             ],
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-htpNat",
+                "isStatic": true,
+                "lastClassName": "eusUoO",
+                "rules": Array [
+                  "
+    margin: 20px;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "render": [Function],
+              "styledComponentId": "sc-htpNat",
+              "target": "div",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": Array [
-                <styled.input
+                <ForwardRef
                   onChange={[Function]}
                   type="number"
                   value={0}
@@ -218,7 +260,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "onChange": [Function],
                   "type": "number",
@@ -226,19 +268,63 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": null,
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "ihvhmd",
+                    "rules": Array [
+                      "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.input",
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "input",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
               },
               " stone",
             ],
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": true,
+                "lastClassName": "ftoKPH",
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": Array [
-                <styled.input
+                <ForwardRef
                   className="qa-lbs-input"
                   onChange={[Function]}
                   type="number"
@@ -252,7 +338,7 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "function",
                 "props": Object {
                   "className": "qa-lbs-input",
                   "onChange": [Function],
@@ -261,19 +347,82 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": null,
-                "type": [Function],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "ihvhmd",
+                    "rules": Array [
+                      "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.input",
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "input",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
               },
               " lbs",
             ],
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ifAKCX",
+                "isStatic": true,
+                "lastClassName": "ftoKPH",
+                "rules": Array [
+                  "
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "render": [Function],
+              "styledComponentId": "sc-ifAKCX",
+              "target": "div",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
         ],
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "lastClassName": "eusUoO",
+            "rules": Array [
+              "
+    margin: 20px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": <h2>
             Hello World
@@ -292,12 +441,47 @@ ShallowWrapper {
           "rendered": "Hello World",
           "type": "h2",
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "ivQMso",
+            "rules": Array [
+              "
+    height: 50px;
+    width: 200px;
+    background-color: ",
+              [Function],
+              ";
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :hover {
+        background-color: #dfffff;
+    }
+
+    h2 {
+        font-family: monospace;
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "children": <h2>
             Goodbye Cruel World
@@ -315,7 +499,42 @@ ShallowWrapper {
           "rendered": "Goodbye Cruel World",
           "type": "h2",
         },
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "ivQMso",
+            "rules": Array [
+              "
+    height: 50px;
+    width: 200px;
+    background-color: ",
+              [Function],
+              ";
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :hover {
+        background-color: #dfffff;
+    }
+
+    h2 {
+        font-family: monospace;
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
       },
       Object {
         "instance": null,
@@ -362,46 +581,46 @@ ShallowWrapper {
               Convert kg to stone
             </h2>
           </div>,
-          <styled.div>
-            <styled.div>
-              <styled.input
+          <ForwardRef>
+            <ForwardRef>
+              <ForwardRef
                 innerRef={[Function]}
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                kg
-            </styled.div>
-            <styled.div>
-              <styled.input
+            </ForwardRef>
+            <ForwardRef>
+              <ForwardRef
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                stone
-            </styled.div>
-            <styled.div>
-              <styled.input
+            </ForwardRef>
+            <ForwardRef>
+              <ForwardRef
                 className="qa-lbs-input"
                 onChange={[Function]}
                 type="number"
                 value={0}
               />
                lbs
-            </styled.div>
-          </styled.div>,
-          <styled.div
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef
             invisible={true}
           >
             <h2>
               Hello World
             </h2>
-          </styled.div>,
-          <styled.div>
+          </ForwardRef>,
+          <ForwardRef>
             <h2>
               Goodbye Cruel World
             </h2>
-          </styled.div>,
+          </ForwardRef>,
           <Widget
             invisible={true}
           >
@@ -463,35 +682,35 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": Array [
-              <styled.div>
-                <styled.input
+              <ForwardRef>
+                <ForwardRef
                   innerRef={[Function]}
                   onChange={[Function]}
                   type="number"
                   value={0}
                 />
                  kg
-              </styled.div>,
-              <styled.div>
-                <styled.input
+              </ForwardRef>,
+              <ForwardRef>
+                <ForwardRef
                   onChange={[Function]}
                   type="number"
                   value={0}
                 />
                  stone
-              </styled.div>,
-              <styled.div>
-                <styled.input
+              </ForwardRef>,
+              <ForwardRef>
+                <ForwardRef
                   className="qa-lbs-input"
                   onChange={[Function]}
                   type="number"
                   value={0}
                 />
                  lbs
-              </styled.div>,
+              </ForwardRef>,
             ],
           },
           "ref": null,
@@ -499,10 +718,10 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": Array [
-                  <styled.input
+                  <ForwardRef
                     innerRef={[Function]}
                     onChange={[Function]}
                     type="number"
@@ -516,7 +735,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "innerRef": [Function],
                     "onChange": [Function],
@@ -525,19 +744,61 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": true,
+                      "lastClassName": "ihvhmd",
+                      "rules": Array [
+                        "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": "input",
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
                 },
                 " kg",
               ],
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "lastClassName": "eusUoO",
+                  "rules": Array [
+                    "
+    margin: 20px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": Array [
-                  <styled.input
+                  <ForwardRef
                     onChange={[Function]}
                     type="number"
                     value={0}
@@ -550,7 +811,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "onChange": [Function],
                     "type": "number",
@@ -558,19 +819,63 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": true,
+                      "lastClassName": "ihvhmd",
+                      "rules": Array [
+                        "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": "input",
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
                 },
                 " stone",
               ],
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": true,
+                  "lastClassName": "ftoKPH",
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
                 "children": Array [
-                  <styled.input
+                  <ForwardRef
                     className="qa-lbs-input"
                     onChange={[Function]}
                     type="number"
@@ -584,7 +889,7 @@ ShallowWrapper {
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "function",
                   "props": Object {
                     "className": "qa-lbs-input",
                     "onChange": [Function],
@@ -593,19 +898,82 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": null,
-                  "type": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": true,
+                      "lastClassName": "ihvhmd",
+                      "rules": Array [
+                        "
+    background-color: #61dafb;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": "input",
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
                 },
                 " lbs",
               ],
-              "type": [Function],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": true,
+                  "lastClassName": "ftoKPH",
+                  "rules": Array [
+                    "
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
             },
           ],
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": true,
+              "lastClassName": "eusUoO",
+              "rules": Array [
+                "
+    margin: 20px;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": <h2>
               Hello World
@@ -624,12 +992,47 @@ ShallowWrapper {
             "rendered": "Hello World",
             "type": "h2",
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "ivQMso",
+              "rules": Array [
+                "
+    height: 50px;
+    width: 200px;
+    background-color: ",
+                [Function],
+                ";
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :hover {
+        background-color: #dfffff;
+    }
+
+    h2 {
+        font-family: monospace;
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": <h2>
               Goodbye Cruel World
@@ -647,7 +1050,42 @@ ShallowWrapper {
             "rendered": "Goodbye Cruel World",
             "type": "h2",
           },
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "ivQMso",
+              "rules": Array [
+                "
+    height: 50px;
+    width: 200px;
+    background-color: ",
+                [Function],
+                ";
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :hover {
+        background-color: #dfffff;
+    }
+
+    h2 {
+        font-family: monospace;
+    }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
