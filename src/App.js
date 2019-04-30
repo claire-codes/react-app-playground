@@ -87,7 +87,7 @@ class App extends Component {
                             type="number"
                             onChange={this.handleKgChange}
                             value={this.state.kg}
-                            innerRef={input => {
+                            ref={input => {
                                 this.nameInput = input;
                             }}
                         />
