@@ -7,7 +7,7 @@
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "jest-styled-components": "^6.2.2",
-    "prettier": "^1.14.2",
+    "prettier": "^1.18.2",
     "react-addons-test-utils": "^15.4.2",
     "react-scripts": "3.0.1",
     "stylelint": "^9.5.0",
