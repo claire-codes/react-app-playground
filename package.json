@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.8.0",
+    "babel-plugin-styled-components": "^1.10.2",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "jest-styled-components": "^6.2.2",
